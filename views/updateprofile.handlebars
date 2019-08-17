@@ -1,0 +1,17 @@
+<h2>UPDATE YOUR PROFILE</h2>
+<form class="updateprofile" action"updateprofile" method="post">
+    {{#allData}}
+    <!-- user_id: <input type="text" name="user_id" value="{{user_id}}"><br> -->
+    First Name: <input type="text" name="first_name" value="{{first_name}}"><br>
+    Last Name: <input type="text" name="last_name" value="{{last_name}}"><br>
+    E-Mail: <input type="text" name="email" value="{{email}}"><br>
+    Password: <input type="password" name="password" value="new-password"><br>
+    Age: <input type="text" name="age" value="{{age}}"><br>
+    City: <input type="text" name="city" value="{{city}}"><br>
+    Homepage: <input type="text" name="homepage" value="{{homepage}}"><br>
+    {{/allData}}
+    <button type="submit" name="update-button">Update</button>
+</form>
+<br>
+<br>
+<img src="https://media.giphy.com/media/h2OLfcSKKthRK/giphy.gif" class="funnygifs">

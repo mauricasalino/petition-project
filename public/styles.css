@@ -1,0 +1,70 @@
+* {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.sass {
+    font-size: 50px;
+    color: red;
+}
+
+.delete {
+    font-size: 70px;
+    color: red;
+}
+
+.titleformat {
+    font-weight: bold;
+    background-color: #FFF300;
+    border: 1px solid black;
+}
+
+img {
+    border: 1px solid black;
+    background-color: yellow;
+}
+
+#canvas {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #c4caac;
+}
+
+body {
+    background: url('bvgmuster.jpg');
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #FFF300;
+    border: 1px solid black;
+}
+
+h2 {
+    font-size: 30px;
+    background-color: #FFF300;
+    border: 1px solid black;
+}
+
+footer {
+    background-color: #FFF300;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 20%;
+    border: 1px solid black;
+}
+
+.funnygifs {
+    width: 20%;
+    height: 20%;
+}
+
+form {
+    background-color: #FFF300;
+    margin-top: -170px;
+    display: inline-table;
+}
